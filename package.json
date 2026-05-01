@@ -1,0 +1,11 @@
+{
+  "name": "gomila-site",
+  "version": "1.0.0",
+  "description": "Sitio web oficial de GoMila",
+  "scripts": {
+    "build": "mkdir -p dist && cp -r public/* dist/"
+  },
+  "engines": {
+    "node": "20.x"
+  }
+}
