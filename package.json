@@ -2,6 +2,6 @@
   "name": "gomila-site",
   "version": "1.0.0",
   "scripts": {
-    "build": "mkdir -p dist && cp public/index.html dist/index.html && cp public/privacidad.html dist/privacidad.html"
+    "build": "mkdir -p dist && cp public/index.html dist/index.html && cp public/privacy.html dist/privacy.html"
   }
 }
