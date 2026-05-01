@@ -1,6 +1,4 @@
 kind: "AppStack"
 schemaVersion: "v1"
 buildConfig:
-  outputDirectory: "dist"
-runConfig:
-  concurrency: 80
+  outputDirectory: "public"
