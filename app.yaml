@@ -6,3 +6,4 @@ handlers:
 - url: /privacidad.html
   static_files: privacidad.html
   upload: privacidad.html
+  
