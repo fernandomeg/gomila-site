@@ -1,4 +1,7 @@
-"scripts": {
-  "build": "mkdir -p dist && cp public/index.html dist/index.html && cp public/privacidad* dist/privacidad.html",
-  "start": "http-server dist -p $PORT"
+{
+  "name": "gomila-site",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "mkdir -p dist && cp public/index.html dist/index.html && cp public/privacidad.html dist/privacidad.html"
+  }
 }
