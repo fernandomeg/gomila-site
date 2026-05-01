@@ -1,0 +1,8 @@
+runtime: nodejs20
+handlers:
+- url: /
+  static_files: index.html
+  upload: index.html
+- url: /privacidad.html
+  static_files: privacidad.html
+  upload: privacidad.html
