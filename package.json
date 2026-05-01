@@ -2,6 +2,13 @@
   "name": "gomila-site",
   "version": "1.0.0",
   "scripts": {
-    "build": "mkdir -p dist && cp public/index.html dist/index.html && cp public/privacy.html dist/privacy.html"
+    "build": "mkdir -p dist && cp public/index.html dist/index.html && cp public/privacy.html dist/privacy.html",
+    "start": "http-server dist -p $PORT"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  },
+  "engines": {
+    "node": "20.x"
   }
 }
