@@ -1,6 +1,0 @@
-kind: "AppStack"
-schemaVersion: "v1"
-buildConfig:
-  outputDirectory: "public"
-runConfig:
-  concurrency: 80
